@@ -1,3 +1,6 @@
 {
-	"block.greenscreen.greenscreen": "Green Screen Block"
+	"block.greenscreen.greenscreen": "Green Screen Block",
+	"block.greenscreen.glow_greenscreen": "Glow Green Screen Block",
+	"block.greenscreen.cyanscreen": "Cyan Screen Block",
+	"block.greenscreen.glow_cyanscreen": "Glow Cyan Screen Block"
 }

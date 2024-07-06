@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "greenscreen:greenscreen"
+      "item": "greenscreen:cyanscreen"
     }
   ],
   "result": {
     "count": 4,
-    "item": "minecraft:lime_dye"
+    "id": "minecraft:cyan_dye"
   }
 }

@@ -1,0 +1,44 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "com.mclegoman",
+		"id": "greenscreen",
+		"version": "${version}",
+		"metadata": {
+			"name": "GreenScreen",
+			"description": "This mod adds a new craftable green screen block. This block is solid green and is always the same colour!",
+			"contributors": {
+				"mclegoman": "Owner"
+			},
+			"license": [
+				"LGPL-3.0-or-later"
+			],
+			"contact": {
+				"homepage": "https://github.com/mclegoman",
+				"sources": "https://github.com/mclegoman/greenscreen",
+				"issues": "https://github.com/mclegoman/greenscreen/issues"
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "com.mclegoman.greenscreen.common.GreenScreen",
+			"client_init": "com.mclegoman.greenscreen.client.GreenScreenClient"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=7.0.2"
+			},
+			{
+				"id": "minecraft",
+				"versions": "~1.21"
+			}
+		]
+	},
+	"accessWidener" : "greenscreen.accesswidener"
+}

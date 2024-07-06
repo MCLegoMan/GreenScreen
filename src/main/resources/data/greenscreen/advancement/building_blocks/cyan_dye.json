@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cyanscreen": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "greenscreen:cyanscreen"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "greenscreen:cyan_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cyanscreen",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "greenscreen:cyan_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

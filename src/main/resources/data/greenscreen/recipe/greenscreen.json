@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "item": "greenscreen:greenscreen"
+    "id": "greenscreen:greenscreen"
   },
   "show_notification": true
 }
