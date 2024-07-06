@@ -6,9 +6,9 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "GreenScreen",
-			"description": "This mod adds a new craftable green screen block. This block is solid green and is always the same colour!",
+			"description": "Adds new craftable solid coloured blocks.",
 			"contributors": {
-				"mclegoman": "Owner"
+				"MCLegoMan": "Owner"
 			},
 			"license": [
 				"LGPL-3.0-or-later"
@@ -18,7 +18,7 @@
 				"sources": "https://github.com/mclegoman/greenscreen",
 				"issues": "https://github.com/mclegoman/greenscreen/issues"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/greenscreen/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
